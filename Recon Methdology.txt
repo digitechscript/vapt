@@ -1,0 +1,76 @@
+Recon Methodology - 
+https://github.com/Quikko/Recon-Methodology#linkfinder
+https://blog.usejournal.com/bug-hunting-methodology-part-1-91295b2d2066
+Domain/Target
+	Sub-domain enumeration
+		Horizontal sub-domain enumeration
+			gobuster
+			massdns
+			subbrute.sh
+			subbrute-big.sh
+			ct.sh
+			amass
+			subfinder
+			Sublist3r
+			aquatone
+			domlink
+			https://www.virustotal.com
+			https://censys.io/
+			https://dnsdumpster.com/
+			https://securitytrails.com/dns-trails
+			https://www.shodan.io/ 
+			Google dorks
+		Vertical sub-domain enumeration
+			https://bgp.he.net/
+			https://whois.arin.net/ui/query.do
+			https://apps.db.ripe.net/db-web-ui/#/fulltextsearch
+			https://viewdns.info : DNS and WHOIS.
+			https://reverse.report
+			Google dork
+	Acquisitions
+		www.crunchbase.com/
+	Linked Discovery
+	CSP-Header
+	Portscanner
+		Masscan
+		Nmap
+		Sparta
+		Brutespray
+	Screenshots
+		EyeWitness
+		WebScreenshot
+		wmap : Chrome extension
+	401/403 response
+		WayBackUrls
+		WayBackUnifier
+		ReconCat
+	directory brute forcing
+		dirbuster
+		dirb
+		gobuster
+		RobotsDisallowed
+		snallygaster
+	Identify
+		Wappalyzer : Extension for chrome/firefox.
+		Builtwith
+		Vulners Web Scanner
+	Linkfinder
+		LinkFinder
+		JSParser
+		relative-url-extractor
+Subdomain takeover - https://github.com/EdOverflow/can-i-take-over-xyz
+		https://github.com/haccer/subjack
+		https://github.com/Ice3man543/SubOver
+	AWS - Buckets
+		slurp
+		S3scanner
+		teh_s3_bucketeer
+GitHub
+	https://github.com/techgaun/github-dorks
+WAF
+	wafwoof
+	https://censys.io/
+	https://dnsdumpster.com/
+	https://securitytrails.com/dns-trails
+	http://viewdns.info/iphistory/?domain=tesla.com
+	bypass-firewalls-by-dns-history
